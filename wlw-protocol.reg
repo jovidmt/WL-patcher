@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\wlw-launch]
+@="URL:Windows Live Writer Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Writer\\WindowsLiveWriter.exe\" \"%1\""

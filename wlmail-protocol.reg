@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\wlmail-launch]
+@="URL:Windows Live Mail Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Mail\\wlmail.exe\" \"%1\""

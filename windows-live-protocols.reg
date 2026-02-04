@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+; Windows Live Mail Launcher
+[HKEY_CLASSES_ROOT\wlmail-launch]
+@="URL:Windows Live Mail Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlmail-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Mail\\wlmail.exe\" \"%1\""
+
+; Windows Live Messenger Launcher
+[HKEY_CLASSES_ROOT\msnmsgr-launch]
+@="URL:Windows Live Messenger Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\msnmsgr-launch\shell]
+
+[HKEY_CLASSES_ROOT\msnmsgr-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\msnmsgr-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Messenger\\msnmsgr.exe\" \"%1\""
+
+; Windows Live Photo Gallery Launcher
+[HKEY_CLASSES_ROOT\wlpg-launch]
+@="URL:Windows Live Photo Gallery Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlpg-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlpg-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlpg-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Photo Gallery\\WLXPhotoGallery.exe\" \"%1\""
+
+; Windows Live Writer Launcher
+[HKEY_CLASSES_ROOT\wlw-launch]
+@="URL:Windows Live Writer Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlw-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Writer\\WindowsLiveWriter.exe\" \"%1\""
