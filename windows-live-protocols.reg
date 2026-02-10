@@ -47,3 +47,15 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\wlw-launch\shell\open\command]
 @="\"C:\\Program Files (x86)\\Windows Live\\Writer\\WindowsLiveWriter.exe\" \"%1\""
+
+; Windows Live Movie Maker Launcher
+[HKEY_CLASSES_ROOT\wlmm-launch]
+@="URL:Windows Live Movie Maker Launcher"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\wlmm-launch\shell]
+
+[HKEY_CLASSES_ROOT\wlmm-launch\shell\open]
+
+[HKEY_CLASSES_ROOT\wlmm-launch\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Live\\Photo Gallery\\MovieMaker.exe\" \"%1\""
